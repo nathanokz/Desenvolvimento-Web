@@ -78,7 +78,6 @@ body {
     position: absolute;
     top: 450px;
     left: 360px;
-    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -86,12 +85,10 @@ body {
 
 .quadrado {
     background-color: rgb(41, 41, 41);
-    width: 230px;
-    height: 200px;
+    width: 400px;
+    height: 350px;
     border-radius: 30px;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    padding-top: 10px;
 }
 
 .materia2 {
@@ -99,7 +96,6 @@ body {
     position: absolute;
     top: 450px;
     left: 660px;
-    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -110,7 +106,6 @@ body {
     position: absolute;
     top: 450px;
     left: 960px;
-    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -121,7 +116,6 @@ body {
     position: absolute;
     top: 450px;
     left: 1260px;
-    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -135,4 +129,17 @@ button {
     height: 35px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.conteudoQuadrado {
+    padding-top: 150px;
+}
+
+.imgMateria {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px; 
+    height: 150px;
 }
